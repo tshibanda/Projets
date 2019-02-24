@@ -1,0 +1,324 @@
+/*structurons l'ensemble de la page*/
+
+* {
+	margin:0;
+	border:0;
+	padding:0;
+}
+
+body { 
+	background-color : white ;
+	background-image : url(../images/hibiscus_tiled_gw.png);
+}
+
+#page
+{
+	background: white ;
+	margin : 0% 5% 5% 10%;
+	padding : 2% 5% 5% 15%;
+	text-align:left;
+	color:#04356C;
+	min-width:30px;
+	height:auto;
+}
+
+/*Occuppons-nous maintenant du haut de la page*/
+header {
+	width:1108.8;
+	height:6em;	
+	background-image: url(../images/fond.jpg);
+	margin:2% 5% 5% 5%;
+}
+
+#logo {
+	float: left;
+	background-image: url(../images/folio_logo_big.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 20%;
+	height: inherit;
+}
+
+#nom {
+	float: left;
+	width: 80%;
+	padding: 1em 0 1em 0;
+	text-align:center;
+	border: 0px solid black;
+	color: #04356C;
+}
+
+
+
+
+/*On traite les sections*/
+
+#titre, #soustitre{
+	margin-left: 20%;
+	margin-right:15%;
+	margin-bottom: 5%;
+}
+section p {
+    padding-left: 0%;
+	margin-top : 3%;
+	margin-bottom: 3%;
+	text-align : justify;
+
+}
+
+
+
+/*On s'attaque désormais aux articles et de leurs contenus comme les titres, tableaux, formulaires, vidéos, etc...*/
+article {
+	margin: 0% 4% 5% 10%;
+	border-top: 0.05em solid grey;
+	border: solid black 1px;
+	border-width: 0.1em;
+	border-style: solid;
+	border-color: grey;	
+	border-radius: 0.1em;
+	box-shadow: 4px 4px 4px #aaa; 
+	overflow-y:scroll;
+	overflow-x:hidden;
+	height: 250px;
+	min-width:50px;
+}
+
+article h1{
+	background: #EEEEEE;
+	padding: 3% ;
+	text-align: center;
+}
+
+article p, a{
+	padding-left: 0;
+    padding-top: 1%;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align:justify;
+}
+
+section article{
+	margin-left: 10%;
+	margin-right:5%;
+}
+article ul li{
+	padding-left: 0;
+    padding-top: 1%;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+article audio 
+{
+	padding-left: 0;
+    padding-top: 1%;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+article table{
+	padding-top: 1%;
+    margin-top: 3%;
+ 	margin: auto;
+    text-align: auto; 
+    padding:0;
+    background-color: black;
+}
+article video{
+	padding-left: 0;
+    padding-top: 1%;
+    margin-left: 25%;
+    margin-right: 10%;
+    height:100%;
+    width:50%;
+}
+
+.audio h1 {
+	background: url(../images/note.png) no-repeat #EEEEEE;
+	background-position: 2% 50%;
+	background-size: 5% 60%;
+
+}
+
+.video h1 {
+	background: url(../images/pelli.png) no-repeat #EEEEEE;
+	background-position: 2% 40%;
+	background-size: 5% 60%;
+
+}
+
+table {
+border: medium solid #000000;
+border-width:1px; 
+border-style:solid; 
+border-color:black;
+width:50%;
+}
+td {
+font-family: sans-serif;
+border: thin solid #6495ed;
+width: 50%;
+padding: 5px;
+text-align: center;
+background-color: #ffffff;
+}
+
+#big{
+	width: 50%;
+	height: 50%;
+}
+#echec{
+	overflow-y:scroll;
+	overflow-x:scroll;
+}
+
+
+#tableindex{
+	padding-top: 1%;
+    margin-top: 3%;
+ 	margin: auto;
+    text-align: center; 
+    padding:0;
+    background-color: #F8F8FF;
+	height:18px;
+	border:0px solid transparent; 
+}
+
+#tableindex td { 
+  border-width:1px;
+  border-color:transparent;
+  background-color: #F8F8FF;
+  width:50%;
+  height:10px;
+}
+#tableindex tr td input{
+height:25px;
+}
+
+#requetes{
+	margin:5%;
+	padding: 0%;
+	text-align:left;
+	background-color: #F8F8FF;
+}
+article form p input {
+	background-color: #F8F8FF;
+	height:18px;
+}
+.btn {
+    display: inline-block;
+    padding: 5px 10px;
+    background: #ddd;
+    border: 1px solid #04356C;
+    color: #04356C;
+    background-color: #F8F8FF;
+    text-decoration: none;
+}
+
+
+.btn:hover, .btn:focus {
+    background: #ccc;
+    text-shadow: 0 -1px #eee;
+}
+
+
+
+
+/*On traite maintenant le menu déroulant, de ses spécifications et de ces animations*/
+nav {
+	background:transparent;	
+	float : left ;
+	margin-top:2%;
+	margin-left : 12%;
+	border: 1px solid black;
+	width : 16%;
+	position:fixed;
+	min-width: 15%;
+}
+
+nav ul li {
+	margin : auto;
+	list-style: none ;
+	text-align : center ;
+	background : #BBBBBB ;
+	border-width: 0.1em;
+	border-style: groove;
+	border-color: white;	
+	border-radius: 0.2em;
+	padding:6%;
+}
+
+nav a {
+	color : white ;
+	text-decoration-line : none ;
+	font-style : italic ;
+}
+
+ol li a{
+	color:black;
+}
+
+nav ul ul li {
+	display : none;
+}
+nav li:hover li {
+	display : block;
+}
+div ul li ul li a {
+	color: black;
+}
+
+nav div ul ol li a{
+	margin:auto;
+}
+nav div ul ol{
+	margin-top: 5%;
+}
+
+nav div ul {
+	margin:auto;
+}
+
+nav div ul ul li {
+	margin-top:5%;
+}
+nav div ul ol li {
+	margin-top:5%;
+}
+
+#pactive{
+	color:red;
+	margin:0%;
+}
+
+
+a{
+	color:orange;
+	text-decoration:none;
+}
+
+#a:hover{
+	color:#8B0000;
+	transition: 0.5s;
+}
+
+
+
+/*Organisation du bas de page*/
+
+footer{
+	width: 40%s;
+	background: transparent;
+	margin-left: 10%;
+	margin-right: 5%;
+	margin-top: 0%;
+	background: white;
+	text-align:center;
+
+}
+footer p{
+	background-color: #FFFFFF
+}

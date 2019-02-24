@@ -1,0 +1,102 @@
+/*Si l'ecran est plus petit que 1200px*/
+
+/*Haut de page*/
+
+* {
+	margin:0;
+	border:0;
+	padding:0;
+}
+header div p{
+	color:transparent;
+}
+
+header h1{
+	text-align:center;
+}
+
+body { 
+	background-color : #87CEFA ;
+	background-image : url(../images/hibiscus_tiled_gw.png);
+}
+
+
+#logo{
+	visibility: hidden;
+}
+
+div ul li ul li a {
+	font-size:auto;
+	text-align: center;
+}
+
+
+
+
+/* L'ensemble des instructions suivantes me permettront d'afficher un menu horizontal*/
+
+section{
+	margin-bottom: 20%;
+	padding-left: 5%;
+	padding-right: 15%;
+}
+
+nav {
+	list-style: none;
+	text-align:center;	
+	padding : 2% 0% 7% 0%;
+	width: 80%;
+	position:relative;
+	border:transparent;
+	transition:1s;
+}
+
+nav div ul li{
+	float:left;
+	margin-left:2%;
+	padding:1%;
+	width : 15%;
+}
+
+nav li:hover li{
+	float:none;
+}
+nav ul ul li{
+	display:none;
+}
+nav div ul ul li{
+	height:6%;
+}
+
+nav div ul ol {
+	display:none;
+}
+
+/*Fin des instructions du menu horizontal*/
+
+
+/*Instructions spécifiques à l'affichage du menu*/
+
+nav div ul li{
+	overflow:scroll;
+}
+
+nav div ul li a{
+	font-size:auto;
+	text-align: center;
+	height:5%;
+}
+
+nav li:hover li {
+	display : none;
+}
+
+nav div ul ol li {
+	padding:5%;
+	display : none;
+}
+
+/*Fin instruction nouveau menu*/
+
+
+

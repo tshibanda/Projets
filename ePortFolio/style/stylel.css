@@ -1,0 +1,25 @@
+/*Si l'ecran est plus grand que 1200px*/
+
+* {
+	margin:auto;
+	border:auto;
+	padding:auto;
+}
+
+
+body { 
+	background-color : #F08080 ;
+	background-image : url(../images/hibiscus_tiled_gw.png);
+}
+
+nav{
+	transition:1s;
+}
+
+
+nav li:hover li {
+	display : block;
+}
+
+
+ 

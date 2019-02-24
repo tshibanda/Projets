@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> ePortfolio </title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        
+        <!-- mobile specific info ... mobile specify windows size to 800/900 whereas device-width is less in general, resulting in small texte etc.- those meta correct this... -->
+        <meta name="HandheldFriendly" content="true" />
+        <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no" />
+        <!-- end mobile specific info -->
+        <link rel="stylesheet" type="text/css" href="style/style3.css" />
+        <link rel="stylesheet" type="text/css" href="style/styleh.css" media="only screen and (max-width: 1200px)" />
+         <link rel="stylesheet" type="text/css" href="style/stylel.css" media="only screen and (min-width: 1200px)" />
+    </head>
+	<body ontouchstart="">
+		
+		<div>	
+			
+			<header> <!-- balise html5 equivalant à <div id="header"> -->
+				<div id="logo"></div>
+				<div id="nom">
+					<h1> Elie TSHIBANDA</h1>
+					<p> Etudiant en DUT Informatique </p>
+				</div>
+			</header>
+			
+			
+			<nav>
+				<div>
+					<ul>
+						<li><a href="accueil.html">Accueil</a></li>
+						<li><a href="competences.html">Compétences</a>
+							<ul>
+								<li><a href="competences.html#informatiques">Informatiques</a></li>
+								<li><a href="competences.html#artistiques">Artistiques</a></li>
+								<li><a href="competences.html#diplomes">Diplomes</a></li>
+							</ul>
+						</li>
+						<li><a href="experiences.html">Expériences</a>
+							<ul>
+								<li><a href="experiences.html#professionnelles">Professionnelles</a></li>
+								<li><a href="experiences.html#scolaires">Cursus scolaire</a></li>
+							</ul>
+						</li>
+						<li><a href="loisirs.html" id="pactive">Loisirs</a>
+							<ol>
+								<li><a href="loisirs.html#musique">Musique</a></li>
+								<li><a href="loisirs.html#video">E-sports</a></li>
+								<li><a href="loisirs.html#echec">Tableau d'échec</a></li>
+							</ol>
+						</li>
+						<li><a href="index.html">Index</a>
+							<ul>
+								<li><a href="index.html">Index HTML</a></li>
+								<li><a href="index2.html">Index bootstrap</a></li>
+							</ul>
+						</li>
+					</ul>
+					
+					<!-- </li></ul> -->
+				</div> <!-- fin id=menu -->
+			</nav>
+			
+			<div id="page">
+				
+				<section>
+					<h1 id="titre"> Bienvenue dans la section ou je présente mes divers loisirs!</h1>
+					<p id="soustitre"> Je poste ici toutes mes passe-temps, loisirs et passions.</p>
+				
+					<article class="audio" id="musique">
+						<h1> Musique </h1>
+						<p> Voici le style de musique que j'aime écouter :</br><a href="./audios/AOM.mp3" id="a">All of me - John Legend & Lindsey Stirling</a> </p>
+						<audio  loop="loop" controls="controls" > <!-- autoplay="autoplay" -->
+							<source src="./audios/AOM.mp3" type="audio/mpeg" />
+							<source src="./audios/AOM.ogg" type="audio/ogg" /> 
+						</audio>
+					</article>
+
+
+					<article class="video" id="video">
+						<h1> E-sports</h1>
+						<p> Le jeu vidéo FIFA, qui combine ma passion du jeu et du football, est un de mes passe-temps préférés. Voici une vidéo du jeu : </p>
+						<video  loop="loop"  controls="controls" id="big">
+							<source src="./videos/fifa.mp4" type="video/mp4"/> 
+							<source src="./videos/fifa.flv" type="video/x-flv"/> 
+							<source src="./videos/fifa.3gp" type="video/3gp"/> 
+							<source src="./videos/fifa.ogv" type="video/ogg"/>
+						</video>
+					</article>
+
+					<article id="echec">
+						<h1> Tableau d'échec </h1>
+						<p> 
+							<table>
+								<thead>
+									<tr>
+										<td>Nom du tournoi</td>
+										<td>Nombre de participants</td>
+										<td>Vainqueur</td>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>PJS1</td>
+										<td>1</td>
+										<td>Lies HAOUAS</td>
+									</tr>
+									<tr>
+										<td>ChessGameWeek</td>
+										<td>64</td>
+										<td>Elie TSHIBANDA</td>
+									</tr>
+								</tbody>
+								<tfoot>
+									<tr>
+										<td>World Cup</td>
+										<td>32</td>
+										<td>National MANNSCHAFT</td>
+									</tr>
+								</tfoot>
+							</table>
+						</p>
+					</article>
+				
+				</section>
+			</div> <!-- fin id="page"-->
+			
+			<footer><p>Site crée par Elie TSHIBANDA</p></footer>
+			
+		</div>
+	</body>
+</html>
+
+
+
+
+
