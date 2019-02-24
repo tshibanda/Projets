@@ -1,0 +1,128 @@
+@charset "utf-8";
+body{
+	background:url(vue/Images/black.jpg);
+	
+}
+#etu {
+	
+	color:red;
+}
+
+
+body{
+	background:url(black.jpg);
+	
+}
+
+center{
+	color:white;
+}
+
+
+#menu {
+	background:cadetblue;
+height:40px;
+color:black;
+text-align:center;
+
+}
+
+
+#menu dl{
+	height:100px;
+	margin:0; padding:0;
+	display:block;
+	float:left;
+margin-left:0; /*rayane*/
+}
+/*#image{
+background:url(fond.png);
+background-image:url(fond.png);
+background-color:url(fond.png);
+}
+*/
+
+#style{
+	background:gainsboro;
+}
+#img{
+	height:auto;
+	display: inline-block; 
+  word-spacing: normal;
+  width:20%;
+}
+
+.bien{
+margin-right:500px;
+	float:right;
+}
+.game{
+color:red;
+}
+.etu{
+	color:black;
+}
+
+dt{ /* tout ce qui concerne les menus principales*/
+	width:300px;
+	display:block;
+    height:40px;
+	color:black;
+	line-height:40px;
+	text-align:center;
+	border-right:solid 2px black;
+	cursor:pointer;
+	text-decoration:none;
+}
+dt{ /* tout ce qui concerne les menus principales*/
+	Margin-left:14;
+}
+#menu dl dt:hover{
+	background:powderblue;
+}
+/* les sous menus  */
+dd{	
+	display:block;
+	margin:0; padding:0;
+	background:cadetblue;
+}
+
+dd ul{
+	margin:0px; padding:0px;
+	list-style:none;
+	text-align:center;
+	color:black;
+	
+}
+
+dd ul li{
+	display:block;
+
+}
+
+
+
+/* afficher les sous menus quand on touche les menus principaux*/
+
+dt a{
+	text-decoration:none;
+	color:black;
+}
+
+
+
+/* il s'agit des trois blocs sur la page d'acceuil, le photo, le texte, et les contacts*/
+
+
+
+
+	
+
+
+
+
+
+	
+	
+	
+	

@@ -1,0 +1,278 @@
+
+@charset "utf-8";
+body{
+	background:url(vue/Images/black.jpg);
+	
+}
+
+
+#etu {
+	
+	color:red;
+}
+
+
+body{
+	background:url(black.jpg);
+	
+}
+
+center{
+	color:white;
+}
+
+
+#menu {
+background:#red;
+height:40px;
+color:black;
+text-align:center;
+
+}
+
+
+#menu dl{
+	height:100px;
+	margin:0; padding:0;
+	display:block;
+	float:left;
+margin-left:0; /*rayane*/
+}
+/*#image{
+background:url(fond.png);
+background-image:url(fond.png);
+background-color:url(fond.png);
+}
+*/
+
+#style{
+	background:gainsboro;
+}
+#img{
+	height:auto;
+	display: inline-block; 
+  word-spacing: normal;
+  width:20%;
+}
+
+.bien{
+margin-right:500px;
+	float:right;
+}
+.game{
+color:red;
+}
+.etu{
+	color:black;
+}
+
+dt{ /* tout ce qui concerne les menus principales*/
+	width:384px;
+	display:block;
+    height:40px;
+	color:black;
+	line-height:40px;
+	text-align:center;
+	border-right:solid 2px black;
+	cursor:pointer;
+	text-decoration:none;
+	text-decoration:none;
+}
+dt{ /* tout ce qui concerne les menus principales*/
+	Margin-left:14;
+}
+#menu dl dt:hover{
+	background:#c67171;
+}
+/* les sous menus  */
+dd{	
+	display:block;
+	margin:0; padding:0;
+	background:cadetblue;
+}
+
+dd ul{
+	margin:0px; padding:0px;
+	list-style:none;
+	text-align:center;
+	color:black;
+	
+}
+
+dd ul li{
+	display:block;
+
+}
+
+
+
+/* afficher les sous menus quand on touche les menus principaux*/
+
+dt a{
+	text-decoration:none;
+	color:black;
+}
+
+
+
+/* il s'agit des trois blocs sur la page d'acceuil, le photo, le texte, et les contacts*/
+#bienvenue{
+	text-align:center;
+
+	text-align: center ;
+	background-color:#DCDCDC;
+	/* padding: 20px; */
+	margin-left: 100px;
+	margin-right: 100px;
+	box-shadow: 8px 8px 12px #aaa;
+	transition-property: background-color,color;
+	transition-duration: 1s;
+	transition-delay: 0s;
+	background-color:skyblue;
+	color:white;
+}
+	
+#Etat{
+	text-align: center;
+	color:red;
+	font-weight: bold;
+
+}
+
+#main{
+	margin-top: 5%;
+}
+#Titre {
+	color:white;
+	background: #7f1a1a;
+	margin-top: 50px;
+	text-align: center;
+	width: 40%;
+	margin-left: 30%;
+}
+
+#info{
+	color:white;
+	width:40%;
+	margin-left: 30%;
+	background-color: #7f1a1a;
+	text-align: center;
+	border: :4px black solid;
+
+}
+
+
+
+/* Dosier etudiant*/
+
+
+
+
+
+
+
+
+@charset "utf-8";
+body{
+	background:url(vue/Images/black.jpg);
+	
+}
+#etu {
+	
+	color:red;
+}
+
+
+body{
+	background:url(black.jpg);
+	
+}
+
+center{
+	color:white;
+}
+
+
+#menu {
+	background:#7f1a1a;
+height:40px;
+color:black;
+text-align:center;
+
+}
+
+
+#menu dl{
+	height:100px;
+	margin:0; padding:0;
+	display:block;
+	float:left;
+margin-left:0; /*rayane*/
+}
+/*#image{
+background:url(fond.png);
+background-image:url(fond.png);
+background-color:url(fond.png);
+}
+*/
+
+#style{
+	background:gainsboro;
+}
+#img{
+	height:auto;
+	display: inline-block; 
+  word-spacing: normal;
+  width:20%;
+}
+
+.bien{
+margin-right:500px;
+	float:right;
+}
+.game{
+color:red;
+}
+.etu{
+	color:black;
+}
+
+
+
+
+
+/* il s'agit des trois blocs sur la page d'acceuil, le photo, le texte, et les contacts*/
+
+#Etat{
+	text-align: center;
+	color:red;
+	font-weight: bold;
+
+}
+
+#main{
+	margin-top: 5%;
+}
+#Titre {
+	color:white;
+	background: #7f1a1a;
+	margin-top: 50px;
+	text-align: center;
+	width: 40%;
+	margin-left: 30%;
+}
+
+#info{
+	color:white;
+	width:40%;
+	margin-left: 30%;
+	background-color: #7f1a1a;
+	text-align: center;
+	border: :4px black solid;
+
+}
+
+
+
+
+
