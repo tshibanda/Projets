@@ -1,0 +1,12 @@
+#contenu {
+	position: absolute;
+	
+	width: calc(100% - 200px);
+	float: right;
+	right: 0px;
+	height: auto;
+	min-width: calc(100% - 40%);
+	max-width: calc(100% - 12.5%);
+
+	padding-bottom: 50px;
+}

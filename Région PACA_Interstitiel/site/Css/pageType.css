@@ -1,0 +1,157 @@
+
+body { 
+	/* width: 100%;  */
+	/* height: 100%;  */
+	 background-image: url("../images/fondes.jpg"); 
+	 /* background-repeat: no-repeat;  */
+	 /* background-size: cover;  */
+	 /* background-position: right top;  */
+	 /* background-attachment: fixed;  */
+ } 
+
+
+
+#page {
+	margin-right:0%;
+	margin-left : 0%;
+	margin-top : 4%;
+	background:#f2f4f7;
+	border-left: 10px;
+	border-right:10px;
+	/*background:#B3B3B3;*/
+	padding-left: 3%;
+	padding-right: 3%;
+	/* background: url(../imgaccueil/black.jpg); */
+}
+#page h1{
+	color:cadetblue;
+}
+
+#page h2 {
+    text-align: center;
+	background:cadetblue;
+    /* padding: 20px; */
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 8px 8px 12px #aaa;
+    transition-property: background-color,color;
+    transition-duration: 1s;
+    transition-delay: 0s;
+	color:#ffff;
+
+}
+#page  h3 {
+	color:black;
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: normal;
+	padding-left:5%;
+	padding-right:5%;
+	text-align:justify;
+}
+
+#page h4{
+	  font-size: 1.80em;
+	  font-weight: bold;
+	  padding-left:4%;
+	  padding-right:5%;
+}
+#page a{
+	color:red;
+}
+
+hr{
+ color: black;
+}
+@media (max-width : 679 px){
+	#page {
+	width: 100%;
+	background:#f2f4f7;
+}
+}
+
+@media (min-width : 680 px) and (max-width : 980 px) {
+	#page {
+	
+	width: 530px;
+	background:#f2f4f7;
+}
+}
+
+#moncadre {
+   border:1px solid black;
+   
+   margin-right:5%;
+	margin-left :5%;
+	margin-top : 4%;
+}
+
+#moncadre-titre {
+	
+	color:white;
+   border:5px solid White;
+   
+   margin-right:33%;
+	margin-left :33%;
+	margin-top : 1%;
+}
+
+a:link, a:visited {
+  
+  color: white;
+  
+  text-align: center;
+  
+  display: inline-block;
+}
+a{
+	color:white;
+}
+
+
+a:hover, a:active {
+ 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+  margin-right:2%;
+margin-left : 2%;
+}
+
+
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+  margin-right:2%;
+margin-left : 2%;
+  
+}
+
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+
+
